@@ -37,6 +37,9 @@ frontend/.env.*
 # =========================
 # Project: keep ONLY demo data
 # =========================
+# Notebooks
+inference-ds310.ipynb
+
 # Ignore everything in data/ by default...
 data/**
 
