@@ -6,15 +6,12 @@ Demo web **FastAPI (backend)** + **React/Vite (frontend)** cho bài toán Food H
 
 - **Python**: 3.10+ (khuyến nghị 3.10/3.11)
 - **Node.js**: 18+
-- **Git**: để push lên GitHub
 
 ### 2) Chạy Backend (FastAPI)
 
 Mở terminal tại thư mục root của project:
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
 pip install -r backend\requirements.txt
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 ```
