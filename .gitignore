@@ -1,0 +1,54 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+
+# =========================
+# Project: keep ONLY demo data
+# =========================
+# Ignore everything in data/ by default...
+data/**
+
+# ...then allowlist only what the demo API uses by default.
+!data/label_mappings.json
+!data/ensemble_weights.json
+!data/test_predictions.csv
+!data/incidents_valid.csv
+!data/incidents_test.csv
+
+# Optional: if you precompute validation to avoid CSV join, you MAY choose to track it.
+# (Leave it ignored by default; uncomment next line if you want to commit it.)
+# !data/validation_predictions.jsonl
+
+

@@ -1,0 +1,8 @@
+{
+    "tuned_w_model_a": 0.55,
+    "tuned_w_model_b": 0.44999999999999996,
+    "model_a_name": "DeBERTa",
+    "model_b_name": "RoBERTa",
+    "valid_f1_avg": 0.8258792925988513,
+    "test_f1_avg": 0.7842459170414999
+}

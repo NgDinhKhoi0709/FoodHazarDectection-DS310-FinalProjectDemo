@@ -1,0 +1,12 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+transformers>=4.36.0
+torch>=2.1.0
+numpy>=1.24.0
+pandas>=2.0.0
+beautifulsoup4>=4.12.0
+huggingface-hub>=0.20.0
+safetensors>=0.4.0
+tqdm>=4.66.0
+python-multipart>=0.0.9
+
